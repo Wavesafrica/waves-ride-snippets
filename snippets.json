@@ -1,0 +1,48 @@
+{
+	"Creates a dApp Script template": {
+		"prefix": "dapp",
+		"body": [
+			"{-# STDLIB_VERSION 3 #-}",
+			"{-# CONTENT_TYPE DAPP #-}",
+			"{-# SCRIPT_TYPE ACCOUNT #-}",
+			"\t",
+			"\t",
+			"@Callable(i)",
+			"$1",
+			"\t",
+			"\t",
+			"@Verifier(tx)",
+			"$0"
+
+		],
+		"description": "Generates a dApp Script template"
+	},
+	"Smart assets directives": {
+		"prefix": "asset",
+		"body": [
+			"{-# STDLIB_VERSION 3 #-}",
+			"{-# CONTENT_TYPE EXPRESSION #-}",
+			"{-# SCRIPT_TYPE ASSET #-}"
+		],
+		"description": "Generates Waves Ride directives for a smart account script"
+	},
+	"Smart accounts directives": {
+		"prefix": "account",
+		"body": [
+			"{-# STDLIB_VERSION 3 #-}",
+			"{-# CONTENT_TYPE EXPRESSION #-}",
+			"{-# SCRIPT_TYPE ACCOUNT #-}"
+		],
+		"description": "Generates Waves Ride directives for a smart asset script"
+	},
+	"Ride function": {
+		"prefix": "fun",
+		"body": [
+			"func ${1:funcName}(${2:param}: ${3:paramType}) = {",
+			"\t",
+			"$0",
+			"}"
+		],
+		"description": "Generates Waves Ride function declaration"
+	}
+}
