@@ -1,6 +1,6 @@
 # Waves Ride Snippets
 
-![Waves Africa](https://wavesafrica.org/asset/2019/06/favicon-3.png)
+![Waves Africa](https://auctionlance.com/ride-snippet.png)
 
 ## Description
 

@@ -1,6 +1,6 @@
 {
   "name": "waves-ride-snippets",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "A VS Code snippet extension for the Waves Ride language",
   "publisher": "wavesafrica",
   "author": {
@@ -10,6 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "icon": "https://auctionlance.com/ride-snippet.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Wavesafrica/waves-ride-snippets.git"
