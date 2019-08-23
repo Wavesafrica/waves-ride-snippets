@@ -32,6 +32,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet    | Purpose                                    |
 | ---------- | ------------------------------------------ |
 | `fun`      | Ride function declaration block            |
+| `rif`      | Ride if statement block                    |
+| `ric`      | Ride callable function block               |
 | `account`  | Ride smart account script directives       |
 
 ### Template
