@@ -12,6 +12,14 @@
 			"\t",
 			"\t",
 			"@Verifier(tx)",
+			"func verify() = {",
+			"\tmatch tx {",
+			"\t\t# Makes sure only the dApp account can update the dApp",
+			"\t\tcase s: SetScriptTransaction => sigVerify(tx.bodyBytes, tx.proofs[0], ${2:dAppAccountPubKey})",
+			"\t\t# add your own validation rule if need here",
+			"\t\tcase _ => false",
+			"\t}",
+			"}",
 			"$0"
 
 		],
