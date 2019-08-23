@@ -52,5 +52,13 @@
 			"}"
 		],
 		"description": "Generates Waves Ride function declaration"
+	},
+	"Ride If statement": {
+		"prefix": "rif",
+		"body": [
+			"if (${1:condition}) then ${2:code}",
+			"else ${3:code}"
+		],
+		"description": "Ride if statement"
 	}
 }
