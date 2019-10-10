@@ -60,5 +60,12 @@
 			"else ${3:code}"
 		],
 		"description": "Ride if statement"
+	},
+	"Ride Let Declaration": {
+		"prefix": "let",
+		"body": [
+			"let ${1:name} = ${2:value}"
+		],
+		"description": "Creates a variable in Ride"
 	}
 }
