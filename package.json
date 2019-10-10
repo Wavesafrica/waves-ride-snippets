@@ -1,7 +1,7 @@
 {
   "name": "waves-ride-snippets",
   "displayName": "Waves Ride Snippets",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A VS Code snippet extension for the Waves Ride language",
   "publisher": "wavesafrica",
   "author": {
