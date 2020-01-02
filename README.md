@@ -1,6 +1,6 @@
 # Waves Ride Snippets
 
-![Waves Africa](https://auctionlance.com/ride-snippet.png)
+![Waves Africa](https://wavesafrica.gallerycdn.vsassets.io/extensions/wavesafrica/waves-ride-snippets/1.0.6/1570724587561/Microsoft.VisualStudio.Services.Icons.Default)
 
 ## Description
 
