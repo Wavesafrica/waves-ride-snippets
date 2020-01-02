@@ -4,12 +4,10 @@
   "version": "1.0.6",
   "description": "A VS Code snippet extension for the Waves Ride language",
   "publisher": "wavesafrica",
-  "author": {
-    "name": "Kelvin Omereshone"
-  },
-  "main": "index.js",
+  "author": "Kelvin Omereshone",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vsce package -o waves-ride-snippets-$npm_package_version.vsix",
+    "install": "yarn build && code --install-extension waves-ride-snippets-$npm_package_version.vsix"
   },
   "icon": "images/ride-snippet.png",
   "repository": {
@@ -24,7 +22,6 @@
     "Waves",
     "Snippets"
   ],
-  "author": "Kelvin Omereshone",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Wavesafrica/waves-ride-snippets/issues"
